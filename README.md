@@ -1,4 +1,4 @@
-# React Routes Frame
+# My blog project
 
 You can found the app deployed in https://my-blog-ab703.web.app/auth
 
