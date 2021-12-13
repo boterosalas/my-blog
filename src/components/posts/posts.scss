@@ -1,0 +1,55 @@
+.content-textarea {
+    height: 200px;
+}
+
+.shortText-textarea {
+    height: 70px;
+}
+
+.text-date {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text-category-container {
+    line-height: 1.2rem;
+    .text-category {
+        display: block;
+        font-style: italic;
+    }
+}
+
+.post-image {
+    cursor: pointer;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.pencil-container {
+    position: relative;
+    .edit-pencil {
+        cursor: pointer;
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        visibility: hidden;
+        width: auto;
+        &.commentary-pencil{
+            right: 0px;
+            top: 0px;
+            padding: 0px;
+        }
+    }
+    &:hover .edit-pencil {
+        visibility: visible;
+    }
+    .category-text {
+        font-style: italic;
+    }
+    .likes-container {
+        bottom: 8px;
+        position: absolute;
+        right: 8px;
+    }
+}

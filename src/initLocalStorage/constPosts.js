@@ -1,0 +1,86 @@
+import { generateId } from "./idGenerator";
+import { idCategoryMovies } from "./constCategories";
+import { adminId } from "./constUsers";
+
+export const posts = [
+    {
+        id: generateId(),
+        category_id: idCategoryMovies,
+        user_id: adminId,
+        title: 'Alerta roja',
+        slug: 'alerta-roja',
+        short_text: 'La nueva película de Netflix, Alerta Roja, cuenta con un repartode actores de primera fila en papeles para los que parecen estar bien dotados. Sin ...',
+        long_text: `La nueva película de Netflix, Alerta Roja, cuenta con un repartode actores de primera fila en papeles para los que parecen estar bien dotados. Sin embargo, a pesar del gran talento, la película está recibiendo críticas mediocres en Rotten Tomatoes. La película tuvo un estreno limitado en cines y se estrenó en Netflix el 12 de noviembre. La película se centra en dos ladrones de arte, Nolan Booth (Ryan Reynolds) y The Bishop (Gal Gadot), que compiten por robar tres huevos de oro que se rumorea que pertenecieron a Cleopatra. El agente del FBI John Hartley (Dwayne "The Rock" Johnson) es el encargado de capturar a Bishop. Sin embargo, pronto la improbable pareja se une en un esfuerzo por capturar al escurridizo Bishop. En el camino hay muchas traiciones, triples traiciones y bromas ingeniosas. Ha habido muchas críticas negativas de Alerta Roja, ya que los críticos consideran que es familiar y está cargada de tópicos. Una cosa es segura, seguro que atraerá a los espectadores de Netflix.`,
+        image: 'https://my-blog-ab703.web.app/images/alerta-roja.jpg',
+        likes: [],
+        dislikes: [],
+        commentaries: [],
+        is_active: true,
+        created_date: new Date().toLocaleString(),
+        updated_date: new Date().toLocaleString()
+    },
+    {
+        id: generateId(),
+        category_id: idCategoryMovies,
+        user_id: adminId,
+        title: 'Loki',
+        slug: 'loki',
+        short_text: 'Loki es una serie de televisión estadounidense creada por Michael Waldron para la plataforma de streaming Disney+, basada en el personaje de Marvel...',
+        long_text: `Loki es una serie de televisión estadounidense creada por Michael Waldron para la plataforma de streaming Disney+, basada en el personaje de Marvel Comics. Está ambientada dentro del Universo cinematográfico de Marvel (MCU) y tiene lugar después de los eventos de Avengers: Endgame (2019).Es producida por Marvel Studios, con Waldron como escritor principal y Kate Herron dirigiendo la primera temporada. Hiddleston repite su papel de Loki del MCU,​junto a Gugu Mbatha-Raw, Wunmi Mosaku, Eugene Cordero, Tara Strong, Owen Wilson, Sophia Di Martino, Sasha Lane, Jack Veal y Deobia Oparei. Para septiembre de 2018, Marvel Studios estaba desarrollando una serie de programas de televisión limitadas para Disney+, basadas en los personajes secundarios de las películas del MCU. Loki fue confirmada en noviembre de 2018, junto con la participación de Hiddleston. Waldron fue contratado en febrero de 2019 y Herron se unió como directora en agosto del mismo año.`,
+        image: 'https://my-blog-ab703.web.app/images/loki.jpg',
+        likes: [],
+        dislikes: [],
+        commentaries: [],
+        is_active: true,
+        created_date: new Date().toLocaleString(),
+        updated_date: new Date().toLocaleString()
+    },
+    {
+        id: generateId(),
+        category_id: idCategoryMovies,
+        user_id: adminId,
+        title: '¿Navidad otra vez?',
+        slug: 'navidad-otra-vez',
+        short_text: 'Es Nochebuena y el adolescente Eddie espera que un nuevo par de zapatillas Breezy 3000 llamen la atención de la vecina Cindy. Pero a la mañana sigu...',
+        long_text: `Es Nochebuena y el adolescente Eddie espera que un nuevo par de zapatillas Breezy 3000 llamen la atención de la vecina Cindy. Pero a la mañana siguiente, el árbol está vacío, y cada nuevo día trae otra Navidad sin regalos. Para salir de este bucle, Eddie deberá aprender de qué realmente se trata el espíritu de esta festividad. Un niño travieso debe superar su Scrooge interior o permanecer atrapado en un ciclo en el que todos los días son una Navidad sin regalos.`,
+        image: 'https://my-blog-ab703.web.app/images/christmas-again.jpg',
+        likes: [],
+        dislikes: [],
+        commentaries: [],
+        is_active: true,
+        created_date: new Date().toLocaleString(),
+        updated_date: new Date().toLocaleString()
+    },
+    {
+        id: generateId(),
+        category_id: idCategoryMovies,
+        user_id: adminId,
+        title: 'Actividad paranormal: Vínculos familiares',
+        slug: 'actividad-paranormal-vinculos-familiares',
+        short_text: 'Margot, una directora de documentales, se dirige a una comunidad Amish aislada con la esperanza de saber algo de su madre y su familia perdida hace...',
+        long_text: `Margot, una directora de documentales, se dirige a una comunidad Amish aislada con la esperanza de saber algo de su madre y su familia perdida hace tiempo. Tras una serie de extraños sucesos y descubrimientos, se da cuenta de que esta comunidad puede no ser lo que parece. Margot, una joven adulta estándar con un pasado oscuro. Como tal, aprovecha Internet para investigar su ascendencia. Margot resulta ser pariente de un hombre amish llamado Samuel, quien puede tener algunas respuestas o información sobre por qué su madre la abandonó cuando era bebé. Junto con sus amigos Chris y Dale, partieron al medio de la nada para hacer un documental sobre su procedencia.`,
+        image: 'https://my-blog-ab703.web.app/images/actividad-paranormal.jpg',
+        likes: [],
+        dislikes: [],
+        commentaries: [],
+        is_active: true,
+        created_date: new Date().toLocaleString(),
+        updated_date: new Date().toLocaleString()
+    },
+    {
+        id: generateId(),
+        category_id: idCategoryMovies,
+        user_id: adminId,
+        title: 'Trolls: Festividades en armonía',
+        slug: 'trolls-festividades-en-armonia',
+        short_text: 'Queen Poppy planea el primer intercambio anual de regalos navideños secretos de Trolls Kingdom, pero las cosas no salen como se esperaba. La histor...',
+        long_text: `Queen Poppy planea el primer intercambio anual de regalos navideños secretos de Trolls Kingdom, pero las cosas no salen como se esperaba. La historia empieza en los días previos a la navidad, cuando Poppy planea el primer intercambio anual de regalos navideños secretos del reino de los Trolls. Sin embargo, las cosas toman un giro inesperado cuando ella y Branch se tocan mutuamente en el intercambio. Mientras tanto, Tiny Diamond sufre un grave bloqueo de escritores al intentar pensar en un rap navideño especial para su padre.`,
+        image: 'https://boterosalas.github.io/images/trolls.jpg',
+        likes: [],
+        dislikes: [],
+        commentaries: [],
+        is_active: true,
+        created_date: new Date().toLocaleString(),
+        updated_date: new Date().toLocaleString()
+    },
+]
